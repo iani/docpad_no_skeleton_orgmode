@@ -1,0 +1,100 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'docpad-plugin-org@2',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json no-skeleton.docpad@0.1.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'docpad-plugin-org@2', null ]
+7 verbose cache add name=undefined spec="docpad-plugin-org@2" args=["docpad-plugin-org@2",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'docpad-plugin-org@2',
+8 verbose parsed url   path: 'docpad-plugin-org@2',
+8 verbose parsed url   href: 'docpad-plugin-org@2' }
+9 verbose cache add name="docpad-plugin-org" spec="2" args=["docpad-plugin-org","2"]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: '2',
+10 verbose parsed url   path: '2',
+10 verbose parsed url   href: '2' }
+11 verbose addNamed [ 'docpad-plugin-org', '2' ]
+12 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
+13 silly lockFile edc9cd53-docpad-plugin-org-2 docpad-plugin-org@2
+14 verbose lock docpad-plugin-org@2 /Users/iani/.npm/edc9cd53-docpad-plugin-org-2.lock
+15 silly addNameRange { name: 'docpad-plugin-org',
+15 silly addNameRange   range: '>=2.0.0-0 <3.0.0-0',
+15 silly addNameRange   hasData: false }
+16 verbose request where is /docpad-plugin-org
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 49d4e6714a422682
+19 verbose url raw /docpad-plugin-org
+20 verbose url resolving [ 'https://registry.npmjs.org/', './docpad-plugin-org' ]
+21 verbose url resolved https://registry.npmjs.org/docpad-plugin-org
+22 verbose request where is https://registry.npmjs.org/docpad-plugin-org
+23 info trying registry request attempt 1 at 08:33:53
+24 http GET https://registry.npmjs.org/docpad-plugin-org
+25 http 404 https://registry.npmjs.org/docpad-plugin-org
+26 verbose headers { date: 'Wed, 26 Nov 2014 06:33:54 GMT',
+26 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 verbose headers   'content-type': 'application/json',
+26 verbose headers   'cache-control': 'max-age=0',
+26 verbose headers   'content-length': '52',
+26 verbose headers   'accept-ranges': 'bytes',
+26 verbose headers   via: '1.1 varnish',
+26 verbose headers   age: '0',
+26 verbose headers   'x-served-by': 'cache-ams4130-AMS',
+26 verbose headers   'x-cache': 'MISS',
+26 verbose headers   'x-cache-hits': '0',
+26 verbose headers   'x-timer': 'S1416983633.666020,VS0,VE660',
+26 verbose headers   'keep-alive': 'timeout=10, max=50',
+26 verbose headers   connection: 'Keep-Alive' }
+27 silly registry.get cb [ 404,
+27 silly registry.get   { date: 'Wed, 26 Nov 2014 06:33:54 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '52',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-ams4130-AMS',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1416983633.666020,VS0,VE660',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly lockFile edc9cd53-docpad-plugin-org-2 docpad-plugin-org@2
+29 silly lockFile edc9cd53-docpad-plugin-org-2 docpad-plugin-org@2
+30 error 404 404 Not Found: docpad-plugin-org
+30 error 404
+30 error 404 'docpad-plugin-org' is not in the npm registry.
+30 error 404 You should bug the author to publish it
+30 error 404 It was specified as a dependency of 'no-skeleton.docpad'
+30 error 404
+30 error 404 Note that you can also install from a
+30 error 404 tarball, folder, or http url, or git url.
+31 error System Darwin 14.0.0
+32 error command "node" "/usr/local/bin/npm" "install" "docpad-plugin-org@2" "--save"
+33 error cwd /Users/iani/Documents/Dev/Web/docpad/no_skeleton
+34 error node -v v0.10.33
+35 error npm -v 1.4.28
+36 error code E404
+37 verbose exit [ 1, true ]

@@ -1,0 +1,18 @@
+---
+title: "Welcome!"
+layout: "default"
+isPage: true
+---
+#+TITLE: ORG RULES
+#+OPTIONS: toc:nil
+
+* this is a test
+
+And this is the content.
+
+*Edited!*, again.
+
+#+BEGIN_HTML
+<h3>embedded</h3>
+<b>This is embedded html.</b>
+#+END_HTML
